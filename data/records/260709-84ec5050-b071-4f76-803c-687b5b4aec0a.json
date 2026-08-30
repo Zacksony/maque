@@ -1,0 +1,7895 @@
+{
+  "format": "maque-universal-paipu",
+  "formatVersion": 1,
+  "gameId": "260709-84ec5050-b071-4f76-803c-687b5b4aec0a",
+  "source": {
+    "platform": "majsoul",
+    "recordId": "260709-84ec5050-b071-4f76-803c-687b5b4aec0a",
+    "publicId": "260709-84ec5050-b071-4f76-803c-687b5b4aec0a_a21920067",
+    "originalLink": "https://game.maj-soul.com/1/?paipu=260709-84ec5050-b071-4f76-803c-687b5b4aec0a_a21920067",
+    "fetchedAt": "2026-08-30T18:00:29.3532976+00:00",
+    "protocolVersion": "0.11.252.w",
+    "clientVersion": "WebGL_2022-0.16.273",
+    "rawPath": "raw/majsoul/260709-84ec5050-b071-4f76-803c-687b5b4aec0a.bin",
+    "rawSha256": "bc45d4fd9f924acaf92ca43f7a452be5334beb847f9e7a6d44771d8495545ab6",
+    "focusPlayerNickname": "Zackson"
+  },
+  "startedAt": "2026-07-09T04:38:52+00:00",
+  "endedAt": "2026-07-09T05:03:22+00:00",
+  "rules": {
+    "playerCount": 4,
+    "roundType": "south",
+    "sourceCategory": 2,
+    "sourceMode": 2,
+    "sourceModeId": 6,
+    "sourceStandardRule": 1,
+    "canEndBelowZero": false
+  },
+  "players": [
+    {
+      "seat": 0,
+      "nickname": "Cybertitan",
+      "sourceAccountId": 23814010,
+      "levelId": 10201,
+      "levelScore": 291,
+      "finalPoints": 22300,
+      "finalScore": -7.7,
+      "gradingScoreDelta": -7,
+      "isFocusPlayer": false
+    },
+    {
+      "seat": 1,
+      "nickname": "Zackson",
+      "sourceAccountId": 9672578,
+      "levelId": 10201,
+      "levelScore": 210,
+      "finalPoints": 8300,
+      "finalScore": -31.7,
+      "gradingScoreDelta": -51,
+      "isFocusPlayer": true
+    },
+    {
+      "seat": 2,
+      "nickname": "moera",
+      "sourceAccountId": 10527672,
+      "levelId": 10202,
+      "levelScore": 82,
+      "finalPoints": 26900,
+      "finalScore": 6.9,
+      "gradingScoreDelta": 27,
+      "isFocusPlayer": false
+    },
+    {
+      "seat": 3,
+      "nickname": "\uACF5\uB9F9\uB3C4",
+      "sourceAccountId": 118612716,
+      "levelId": 10203,
+      "levelScore": 932,
+      "finalPoints": 42500,
+      "finalScore": 32.5,
+      "gradingScoreDelta": 73,
+      "isFocusPlayer": false
+    }
+  ],
+  "rounds": [
+    {
+      "index": 0,
+      "wind": "east",
+      "handNumber": 1,
+      "dealerSeat": 0,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        25000,
+        25000,
+        25000,
+        25000
+      ],
+      "initialHands": {
+        "0": [
+          "8p",
+          "9m",
+          "4z",
+          "7p",
+          "7m",
+          "4m",
+          "2p",
+          "7s",
+          "4z",
+          "9m",
+          "1m",
+          "6s",
+          "1z",
+          "6p"
+        ],
+        "1": [
+          "3p",
+          "5p",
+          "2s",
+          "7s",
+          "2p",
+          "3z",
+          "0m",
+          "7z",
+          "7z",
+          "1p",
+          "3z",
+          "6z",
+          "9s"
+        ],
+        "2": [
+          "2z",
+          "8m",
+          "8p",
+          "5z",
+          "7s",
+          "1z",
+          "2m",
+          "2z",
+          "9s",
+          "9p",
+          "1p",
+          "6z",
+          "4s"
+        ],
+        "3": [
+          "6p",
+          "4m",
+          "4z",
+          "2p",
+          "7m",
+          "3s",
+          "4z",
+          "9p",
+          "9s",
+          "2m",
+          "8s",
+          "7p",
+          "1m"
+        ]
+      },
+      "doraIndicators": [
+        "9s"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8p",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3s",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4p",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3p",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5p",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2m",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7m",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3m",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "9m",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5s",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4m",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "3m",
+            "4m",
+            "2m"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 3,
+          "tiles": [
+            "4z",
+            "4z",
+            "4z"
+          ],
+          "fromSeats": [
+            3,
+            3,
+            0
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7z",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2s",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9m",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3s",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "6s",
+            "7s",
+            "8s"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3p",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2z",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3p",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3m",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5z",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4s",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "4s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7p",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 52,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 53,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 1,
+          "tiles": [
+            "7z",
+            "7z",
+            "7z"
+          ],
+          "fromSeats": [
+            1,
+            1,
+            0
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 54,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 55,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9p",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 56,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 57,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1p",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 58,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 59,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "5m",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 60,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 61,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4p",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 62,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 63,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6p",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 64,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 65,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7z",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 66,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 67,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "8s",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 68,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "8s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 69,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1z",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 70,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 71,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1s",
+          "tilesLeft": 37
+        },
+        {
+          "sequence": 72,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 73,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5s",
+          "tilesLeft": 36
+        },
+        {
+          "sequence": 74,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 75,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "1m",
+          "tilesLeft": 35
+        },
+        {
+          "sequence": 76,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 77,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6z",
+          "tilesLeft": 34
+        },
+        {
+          "sequence": 78,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 79,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "0s",
+          "tilesLeft": 33
+        },
+        {
+          "sequence": 80,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 81,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4s",
+          "tilesLeft": 32
+        },
+        {
+          "sequence": 82,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "4s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 83,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6z",
+          "tilesLeft": 31
+        },
+        {
+          "sequence": 84,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 85,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1s",
+          "tilesLeft": 30
+        },
+        {
+          "sequence": 86,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 87,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3s",
+          "tilesLeft": 29
+        },
+        {
+          "sequence": 88,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 89,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5p",
+          "tilesLeft": 28
+        },
+        {
+          "sequence": 90,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 91,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4m",
+          "tilesLeft": 27
+        },
+        {
+          "sequence": 92,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 93,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            24000,
+            25000,
+            25000,
+            26000
+          ],
+          "scoreDeltas": [
+            -1000,
+            0,
+            0,
+            1000
+          ],
+          "wins": [
+            {
+              "seat": 3,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "7m",
+              "hand": [
+                "4m",
+                "4m",
+                "7m",
+                "7m",
+                "2p",
+                "3p",
+                "4p",
+                "5p",
+                "6p",
+                "7p"
+              ],
+              "melds": [
+                "kezi(4z,4z,4z)"
+              ],
+              "doraIndicators": [
+                "9s"
+              ],
+              "uraDoraIndicators": [],
+              "han": 1,
+              "fu": 30,
+              "ronPoints": 1000,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 1000,
+              "yaku": [
+                {
+                  "sourceId": 10,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "wind": "east",
+      "handNumber": 2,
+      "dealerSeat": 1,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        24000,
+        25000,
+        25000,
+        26000
+      ],
+      "initialHands": {
+        "0": [
+          "6p",
+          "9s",
+          "9s",
+          "8s",
+          "4p",
+          "2m",
+          "7p",
+          "5z",
+          "2s",
+          "4m",
+          "7m",
+          "5m",
+          "3p"
+        ],
+        "1": [
+          "2m",
+          "1s",
+          "2z",
+          "4s",
+          "5p",
+          "2p",
+          "2z",
+          "7p",
+          "4s",
+          "6s",
+          "0m",
+          "3m",
+          "4z",
+          "1p"
+        ],
+        "2": [
+          "2m",
+          "2s",
+          "9p",
+          "9m",
+          "4m",
+          "1z",
+          "1m",
+          "4m",
+          "2z",
+          "1s",
+          "9p",
+          "7z",
+          "4s"
+        ],
+        "3": [
+          "0p",
+          "1p",
+          "2p",
+          "6s",
+          "8p",
+          "6z",
+          "6z",
+          "6m",
+          "1s",
+          "3s",
+          "7m",
+          "8s",
+          "2m"
+        ]
+      },
+      "doraIndicators": [
+        "9s"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2z",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8m",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7z",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6m",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3m",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "5m",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1z",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9s",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1s",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "8p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "9m",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "7m",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7z",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4m",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "4m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2p",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4p",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3z",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "9m",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3p",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8s",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 3,
+          "tiles": [
+            "1s",
+            "1s",
+            "1s"
+          ],
+          "fromSeats": [
+            3,
+            3,
+            1
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7s",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4z",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7s",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 3,
+          "tiles": [
+            "6s",
+            "8s",
+            "7s"
+          ],
+          "fromSeats": [
+            3,
+            3,
+            2
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6m",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 52,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 53,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5z",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 54,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 55,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7s",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 56,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 57,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5m",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 58,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 59,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3s",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 60,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 61,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6s",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 62,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 63,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6s",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 64,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 65,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3z",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 66,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 67,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2s",
+          "tilesLeft": 37
+        },
+        {
+          "sequence": 68,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 69,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8s",
+          "tilesLeft": 36
+        },
+        {
+          "sequence": 70,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 71,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1p",
+          "tilesLeft": 35
+        },
+        {
+          "sequence": 72,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 73,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7s",
+          "tilesLeft": 34
+        },
+        {
+          "sequence": 74,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 75,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3z",
+          "tilesLeft": 33
+        },
+        {
+          "sequence": 76,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 77,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "9p",
+          "tilesLeft": 32
+        },
+        {
+          "sequence": 78,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 79,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "9p",
+            "9p",
+            "9p"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            1
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 80,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 81,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5p",
+          "tilesLeft": 31
+        },
+        {
+          "sequence": 82,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "8m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 83,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "9p",
+          "tilesLeft": 30
+        },
+        {
+          "sequence": 84,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 85,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4p",
+          "tilesLeft": 29
+        },
+        {
+          "sequence": 86,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 87,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "2z",
+            "2z",
+            "2z"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            1
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 88,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 89,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3s",
+          "tilesLeft": 28
+        },
+        {
+          "sequence": 90,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 91,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2p",
+          "tilesLeft": 27
+        },
+        {
+          "sequence": 92,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 93,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4z",
+          "tilesLeft": 26
+        },
+        {
+          "sequence": 94,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 95,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5z",
+          "tilesLeft": 25
+        },
+        {
+          "sequence": 96,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 97,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3s",
+          "tilesLeft": 24
+        },
+        {
+          "sequence": 98,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 99,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "8m",
+          "tilesLeft": 23
+        },
+        {
+          "sequence": 100,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 101,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1z",
+          "tilesLeft": 22
+        },
+        {
+          "sequence": 102,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 103,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6z",
+          "tilesLeft": 21
+        },
+        {
+          "sequence": 104,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 105,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            24000,
+            25000,
+            17000,
+            34000
+          ],
+          "scoreDeltas": [
+            0,
+            0,
+            -8000,
+            8000
+          ],
+          "wins": [
+            {
+              "seat": 3,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "6z",
+              "hand": [
+                "5m",
+                "6m",
+                "7m",
+                "0p",
+                "5p",
+                "6z",
+                "6z"
+              ],
+              "melds": [
+                "kezi(1s,1s,1s)",
+                "shunzi(6s,8s,7s)"
+              ],
+              "doraIndicators": [
+                "9s"
+              ],
+              "uraDoraIndicators": [],
+              "han": 5,
+              "fu": 30,
+              "ronPoints": 8000,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 9000,
+              "yaku": [
+                {
+                  "sourceId": 8,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 3
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "wind": "east",
+      "handNumber": 3,
+      "dealerSeat": 2,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        24000,
+        25000,
+        17000,
+        34000
+      ],
+      "initialHands": {
+        "0": [
+          "6z",
+          "1z",
+          "4p",
+          "3s",
+          "8m",
+          "1p",
+          "2z",
+          "5m",
+          "9m",
+          "1m",
+          "8s",
+          "6z",
+          "4m"
+        ],
+        "1": [
+          "3z",
+          "2s",
+          "8p",
+          "1p",
+          "1s",
+          "4s",
+          "2s",
+          "7s",
+          "6s",
+          "6s",
+          "2p",
+          "6p",
+          "7m"
+        ],
+        "2": [
+          "8s",
+          "8m",
+          "2m",
+          "5m",
+          "7m",
+          "6s",
+          "9s",
+          "4z",
+          "8m",
+          "3p",
+          "6s",
+          "9p",
+          "7z",
+          "7m"
+        ],
+        "3": [
+          "6p",
+          "4m",
+          "6m",
+          "1m",
+          "8p",
+          "7p",
+          "1m",
+          "1s",
+          "9m",
+          "9m",
+          "9m",
+          "5z",
+          "1s"
+        ]
+      },
+      "doraIndicators": [
+        "2m"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6m",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6m",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4p",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2z",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "0m",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6m",
+          "isTsumogiri": false,
+          "isRiichi": true,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "riichi-accepted",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "riichiAccepted": true,
+          "scores": [
+            33000
+          ]
+        },
+        {
+          "sequence": 12,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6p",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 13,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 14,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6m",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 15,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 16,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            24000,
+            18600,
+            17000,
+            40400
+          ],
+          "scoreDeltas": [
+            0,
+            -6400,
+            0,
+            7400
+          ],
+          "wins": [
+            {
+              "seat": 3,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": true,
+              "isYakuman": false,
+              "winningTile": "1s",
+              "hand": [
+                "1m",
+                "1m",
+                "4m",
+                "0m",
+                "6m",
+                "9m",
+                "9m",
+                "9m",
+                "6p",
+                "7p",
+                "8p",
+                "1s",
+                "1s"
+              ],
+              "melds": [],
+              "doraIndicators": [
+                "2m"
+              ],
+              "uraDoraIndicators": [
+                "2s"
+              ],
+              "han": 3,
+              "fu": 50,
+              "ronPoints": 6400,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 15400,
+              "yaku": [
+                {
+                  "sourceId": 2,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 30,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 33,
+                  "name": "",
+                  "han": 0
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "wind": "east",
+      "handNumber": 4,
+      "dealerSeat": 3,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        24000,
+        18600,
+        17000,
+        40400
+      ],
+      "initialHands": {
+        "0": [
+          "4p",
+          "4s",
+          "5p",
+          "1p",
+          "7m",
+          "4z",
+          "4m",
+          "2p",
+          "8s",
+          "7m",
+          "8p",
+          "8p",
+          "7p"
+        ],
+        "1": [
+          "1m",
+          "7p",
+          "6m",
+          "1z",
+          "1s",
+          "6z",
+          "2z",
+          "4z",
+          "3p",
+          "6p",
+          "3m",
+          "8s",
+          "6s"
+        ],
+        "2": [
+          "5s",
+          "3m",
+          "0m",
+          "6s",
+          "0p",
+          "1p",
+          "7m",
+          "3z",
+          "1p",
+          "9m",
+          "9s",
+          "9s",
+          "6s"
+        ],
+        "3": [
+          "7s",
+          "9m",
+          "2z",
+          "2s",
+          "1p",
+          "5m",
+          "5s",
+          "6m",
+          "6z",
+          "3p",
+          "3z",
+          "2p",
+          "2z",
+          "7z"
+        ]
+      },
+      "doraIndicators": [
+        "1s"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6p",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6p",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9p",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8p",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4s",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "7s",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9s",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2m",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4m",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4m",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "4m",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6s",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6z",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5s",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "8m",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1z",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "1z",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8s",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5p",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6s",
+          "isTsumogiri": false,
+          "isRiichi": true,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "riichi-accepted",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "riichiAccepted": true,
+          "scores": [
+            16000
+          ]
+        },
+        {
+          "sequence": 40,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8m",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 41,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 42,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2m",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 43,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 44,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6m",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 45,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 46,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5z",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 47,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 48,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2p",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 49,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 50,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "1m",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 51,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 52,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3m",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 53,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 54,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7z",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 55,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 56,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8m",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 57,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 58,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "9p",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 59,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 60,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5z",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 61,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 62,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7m",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 63,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 64,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "7m",
+            "7m",
+            "7m"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            2
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 65,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 66,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3s",
+          "tilesLeft": 37
+        },
+        {
+          "sequence": 67,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 68,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3s",
+          "tilesLeft": 36
+        },
+        {
+          "sequence": 69,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 70,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6p",
+          "tilesLeft": 35
+        },
+        {
+          "sequence": 71,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 72,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "0s",
+          "tilesLeft": 34
+        },
+        {
+          "sequence": 73,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 74,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2m",
+          "tilesLeft": 33
+        },
+        {
+          "sequence": 75,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 76,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9m",
+          "tilesLeft": 32
+        },
+        {
+          "sequence": 77,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 78,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4s",
+          "tilesLeft": 31
+        },
+        {
+          "sequence": 79,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 80,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "4s",
+            "0s",
+            "6s"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 81,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 82,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            16000,
+            18600,
+            25000,
+            40400
+          ],
+          "scoreDeltas": [
+            -8000,
+            0,
+            9000,
+            0
+          ],
+          "wins": [
+            {
+              "seat": 2,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": true,
+              "isYakuman": false,
+              "winningTile": "4s",
+              "hand": [
+                "3m",
+                "4m",
+                "0m",
+                "7m",
+                "8m",
+                "9m",
+                "0p",
+                "5p",
+                "5s",
+                "6s",
+                "9s",
+                "9s",
+                "9s"
+              ],
+              "melds": [],
+              "doraIndicators": [
+                "1s"
+              ],
+              "uraDoraIndicators": [
+                "3m"
+              ],
+              "han": 4,
+              "fu": 40,
+              "ronPoints": 8000,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 8000,
+              "yaku": [
+                {
+                  "sourceId": 2,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 2
+                },
+                {
+                  "sourceId": 33,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "wind": "south",
+      "handNumber": 1,
+      "dealerSeat": 0,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        16000,
+        18600,
+        25000,
+        40400
+      ],
+      "initialHands": {
+        "0": [
+          "4m",
+          "1z",
+          "6p",
+          "6s",
+          "3p",
+          "1m",
+          "9s",
+          "1s",
+          "1z",
+          "6m",
+          "3s",
+          "7z",
+          "3p",
+          "4z"
+        ],
+        "1": [
+          "6m",
+          "5p",
+          "8m",
+          "3m",
+          "3z",
+          "2z",
+          "1m",
+          "7m",
+          "4z",
+          "3m",
+          "3z",
+          "6m",
+          "7z"
+        ],
+        "2": [
+          "2s",
+          "4p",
+          "6m",
+          "1m",
+          "3p",
+          "2s",
+          "6p",
+          "6p",
+          "0p",
+          "5p",
+          "5z",
+          "5m",
+          "8p"
+        ],
+        "3": [
+          "2m",
+          "0m",
+          "6z",
+          "8s",
+          "5s",
+          "8s",
+          "4s",
+          "7s",
+          "3p",
+          "9s",
+          "6s",
+          "6p",
+          "3z"
+        ]
+      },
+      "doraIndicators": [
+        "1p"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3m",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6s",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8s",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 1,
+          "tiles": [
+            "3z",
+            "3z",
+            "3z"
+          ],
+          "fromSeats": [
+            1,
+            1,
+            3
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2p",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7s",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4z",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4z",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6s",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "8p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4s",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2p",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2m",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5z",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2s",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7p",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5p",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "0p",
+            "5p",
+            "5p"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            1
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1z",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "6p",
+            "6p",
+            "6p"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            3
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6z",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "0m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "4m",
+            "6m",
+            "0m"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2m",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "8m",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "8m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4m",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4m",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            12100,
+            18600,
+            28900,
+            40400
+          ],
+          "scoreDeltas": [
+            -3900,
+            0,
+            3900,
+            0
+          ],
+          "wins": [
+            {
+              "seat": 2,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "4m",
+              "hand": [
+                "5m",
+                "6m",
+                "2p",
+                "3p",
+                "4p",
+                "6s",
+                "6s"
+              ],
+              "melds": [
+                "kezi(0p,5p,5p)",
+                "kezi(6p,6p,6p)"
+              ],
+              "doraIndicators": [
+                "1p"
+              ],
+              "uraDoraIndicators": [],
+              "han": 3,
+              "fu": 30,
+              "ronPoints": 3900,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 11900,
+              "yaku": [
+                {
+                  "sourceId": 12,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "wind": "south",
+      "handNumber": 2,
+      "dealerSeat": 1,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        12100,
+        18600,
+        28900,
+        40400
+      ],
+      "initialHands": {
+        "0": [
+          "7z",
+          "9m",
+          "4s",
+          "1s",
+          "5z",
+          "1z",
+          "7z",
+          "9p",
+          "5z",
+          "7z",
+          "2z",
+          "9s",
+          "8p"
+        ],
+        "1": [
+          "9s",
+          "7m",
+          "2p",
+          "3m",
+          "4z",
+          "2m",
+          "3s",
+          "6z",
+          "6p",
+          "8p",
+          "5m",
+          "1p",
+          "6z",
+          "1z"
+        ],
+        "2": [
+          "6p",
+          "5m",
+          "2z",
+          "2z",
+          "9s",
+          "1z",
+          "1p",
+          "6s",
+          "4s",
+          "3m",
+          "8s",
+          "8m",
+          "9s"
+        ],
+        "3": [
+          "3s",
+          "6s",
+          "7m",
+          "7s",
+          "4p",
+          "1s",
+          "0m",
+          "2s",
+          "3s",
+          "9p",
+          "4m",
+          "8s",
+          "5s"
+        ]
+      },
+      "doraIndicators": [
+        "3p"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9m",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "0p",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6m",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2s",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3z",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1m",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7p",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4m",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9p",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4m",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "4m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2s",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4z",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7m",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3m",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3p",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "2z",
+            "2z",
+            "2z"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            0
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4p",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "0p",
+          "isTsumogiri": false,
+          "isRiichi": true,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "riichi-accepted",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "riichiAccepted": true,
+          "scores": [
+            39400
+          ]
+        },
+        {
+          "sequence": 36,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7p",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 37,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 38,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2p",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 39,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 40,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7s",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 41,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 42,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            12100,
+            18600,
+            20900,
+            48400
+          ],
+          "scoreDeltas": [
+            0,
+            0,
+            -8000,
+            9000
+          ],
+          "wins": [
+            {
+              "seat": 3,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": true,
+              "isYakuman": false,
+              "winningTile": "4s",
+              "hand": [
+                "3m",
+                "4m",
+                "0m",
+                "4p",
+                "4p",
+                "1s",
+                "2s",
+                "3s",
+                "3s",
+                "5s",
+                "6s",
+                "7s",
+                "8s"
+              ],
+              "melds": [],
+              "doraIndicators": [
+                "3p"
+              ],
+              "uraDoraIndicators": [
+                "6p"
+              ],
+              "han": 5,
+              "fu": 40,
+              "ronPoints": 8000,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 23400,
+              "yaku": [
+                {
+                  "sourceId": 2,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 30,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 2
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 33,
+                  "name": "",
+                  "han": 0
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "wind": "south",
+      "handNumber": 3,
+      "dealerSeat": 2,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        12100,
+        18600,
+        20900,
+        48400
+      ],
+      "initialHands": {
+        "0": [
+          "9s",
+          "5m",
+          "6s",
+          "4p",
+          "9p",
+          "6z",
+          "7s",
+          "8m",
+          "8m",
+          "0m",
+          "2z",
+          "7z",
+          "2z"
+        ],
+        "1": [
+          "9p",
+          "8p",
+          "8p",
+          "7s",
+          "0s",
+          "3z",
+          "1s",
+          "1m",
+          "6s",
+          "1p",
+          "5z",
+          "4m",
+          "6p"
+        ],
+        "2": [
+          "9p",
+          "2s",
+          "2s",
+          "8m",
+          "9s",
+          "6p",
+          "6m",
+          "9s",
+          "5p",
+          "0p",
+          "2m",
+          "4z",
+          "5p",
+          "7s"
+        ],
+        "3": [
+          "5z",
+          "3z",
+          "8s",
+          "2m",
+          "1p",
+          "6z",
+          "7p",
+          "3z",
+          "9s",
+          "2p",
+          "4s",
+          "2p",
+          "5m"
+        ]
+      },
+      "doraIndicators": [
+        "1m"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8p",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "8s",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6m",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7p",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5s",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4s",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1s",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5z",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6s",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "0m",
+            "5m",
+            "5m"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1m",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2z",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2p",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "9m",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3p",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "4s",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1p",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "5m",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 36,
+          "type": "kan",
+          "sourceAction": ".lq.RecordAnGangAddGang",
+          "seat": 0,
+          "tile": "5m",
+          "sourceType": 2,
+          "meldType": "kakan"
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7z",
+          "tilesLeft": 51,
+          "doraIndicators": [
+            "1m"
+          ]
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false,
+          "doraIndicators": [
+            "1m",
+            "9p"
+          ]
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6p",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7m",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "8m",
+            "9m",
+            "7m"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "8m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3s",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2p",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1m",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 52,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 53,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2s",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 54,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 55,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "2s",
+            "2s",
+            "2s"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            0
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 56,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 57,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6z",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 58,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 59,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3p",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 60,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 61,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3s",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 62,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 63,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5s",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 64,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 65,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1z",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 66,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 67,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4p",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 68,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 69,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4z",
+          "tilesLeft": 37
+        },
+        {
+          "sequence": 70,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 71,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3z",
+          "tilesLeft": 36
+        },
+        {
+          "sequence": 72,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 73,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3m",
+          "tilesLeft": 35
+        },
+        {
+          "sequence": 74,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 75,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7s",
+          "tilesLeft": 34
+        },
+        {
+          "sequence": 76,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 77,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8m",
+          "tilesLeft": 33
+        },
+        {
+          "sequence": 78,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 79,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5s",
+          "tilesLeft": 32
+        },
+        {
+          "sequence": 80,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "8m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 81,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7p",
+          "tilesLeft": 31
+        },
+        {
+          "sequence": 82,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 83,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7m",
+          "tilesLeft": 30
+        },
+        {
+          "sequence": 84,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 85,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "9m",
+          "tilesLeft": 29
+        },
+        {
+          "sequence": 86,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 87,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 28
+        },
+        {
+          "sequence": 88,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 89,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6z",
+          "tilesLeft": 27
+        },
+        {
+          "sequence": 90,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 91,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4m",
+          "tilesLeft": 26
+        },
+        {
+          "sequence": 92,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 93,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "1s",
+          "tilesLeft": 25
+        },
+        {
+          "sequence": 94,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 95,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 2,
+          "tiles": [
+            "2m",
+            "3m",
+            "4m"
+          ],
+          "fromSeats": [
+            2,
+            2,
+            1
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 96,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 97,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6s",
+          "tilesLeft": 24
+        },
+        {
+          "sequence": 98,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 99,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "1z",
+          "tilesLeft": 23
+        },
+        {
+          "sequence": 100,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 101,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "7m",
+          "tilesLeft": 22
+        },
+        {
+          "sequence": 102,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 103,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1p",
+          "tilesLeft": 21
+        },
+        {
+          "sequence": 104,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 105,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3s",
+          "tilesLeft": 20
+        },
+        {
+          "sequence": 106,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 107,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4z",
+          "tilesLeft": 19
+        },
+        {
+          "sequence": 108,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 109,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8s",
+          "tilesLeft": 18
+        },
+        {
+          "sequence": 110,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 111,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "4p",
+          "tilesLeft": 17
+        },
+        {
+          "sequence": 112,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 113,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "7m",
+          "tilesLeft": 16
+        },
+        {
+          "sequence": 114,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 115,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "1z",
+          "tilesLeft": 15
+        },
+        {
+          "sequence": 116,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 117,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6m",
+          "tilesLeft": 14
+        },
+        {
+          "sequence": 118,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 119,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "9m",
+          "tilesLeft": 13
+        },
+        {
+          "sequence": 120,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 121,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2m",
+          "tilesLeft": 12
+        },
+        {
+          "sequence": 122,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 123,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6m",
+          "tilesLeft": 11
+        },
+        {
+          "sequence": 124,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 125,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2z",
+          "tilesLeft": 10
+        },
+        {
+          "sequence": 126,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 127,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5p",
+          "tilesLeft": 9
+        },
+        {
+          "sequence": 128,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            10100,
+            16600,
+            26900,
+            46400
+          ],
+          "scoreDeltas": [
+            -2000,
+            -2000,
+            6000,
+            -2000
+          ],
+          "wins": [
+            {
+              "seat": 2,
+              "isTsumo": true,
+              "isDealer": true,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "5p",
+              "hand": [
+                "0p",
+                "5p",
+                "5p",
+                "6p",
+                "7p",
+                "5s",
+                "5s"
+              ],
+              "melds": [
+                "kezi(2s,2s,2s)",
+                "shunzi(2m,3m,4m)"
+              ],
+              "doraIndicators": [
+                "1m",
+                "9p"
+              ],
+              "uraDoraIndicators": [],
+              "han": 3,
+              "fu": 30,
+              "ronPoints": 5800,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 2000,
+              "totalPoints": 17900,
+              "yaku": [
+                {
+                  "sourceId": 12,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "wind": "south",
+      "handNumber": 3,
+      "dealerSeat": 2,
+      "honba": 1,
+      "riichiSticks": 0,
+      "initialScores": [
+        10100,
+        16600,
+        26900,
+        46400
+      ],
+      "initialHands": {
+        "0": [
+          "4z",
+          "9m",
+          "3s",
+          "4p",
+          "0p",
+          "8s",
+          "7m",
+          "1z",
+          "6m",
+          "5z",
+          "9s",
+          "3s",
+          "7p"
+        ],
+        "1": [
+          "3p",
+          "3p",
+          "2z",
+          "5z",
+          "8p",
+          "7s",
+          "3z",
+          "1s",
+          "6m",
+          "4z",
+          "1p",
+          "4z",
+          "2z"
+        ],
+        "2": [
+          "7z",
+          "1s",
+          "1p",
+          "4s",
+          "6z",
+          "2z",
+          "5s",
+          "6m",
+          "9m",
+          "1p",
+          "3m",
+          "9p",
+          "6p",
+          "5m"
+        ],
+        "3": [
+          "5p",
+          "6s",
+          "1p",
+          "5z",
+          "9s",
+          "5s",
+          "7z",
+          "2p",
+          "2p",
+          "9p",
+          "4p",
+          "1s",
+          "4m"
+        ]
+      },
+      "doraIndicators": [
+        "2s"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 1,
+          "tiles": [
+            "2z",
+            "2z",
+            "2z"
+          ],
+          "fromSeats": [
+            1,
+            1,
+            2
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2m",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2m",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7s",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2s",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1m",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3s",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4s",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5p",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3z",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2s",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "8s",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2z",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 26,
+          "type": "kan",
+          "sourceAction": ".lq.RecordAnGangAddGang",
+          "seat": 1,
+          "tile": "2z",
+          "sourceType": 2,
+          "meldType": "kakan"
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "0m",
+          "tilesLeft": 56,
+          "doraIndicators": [
+            "2s"
+          ]
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false,
+          "doraIndicators": [
+            "2s",
+            "8m"
+          ]
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5z",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4s",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 1,
+          "tiles": [
+            "4z",
+            "4z",
+            "4z"
+          ],
+          "fromSeats": [
+            1,
+            1,
+            0
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6s",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "5p",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7p",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8p",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "8s",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "9p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1z",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "8m",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6z",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 52,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 53,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2p",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 54,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "8s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 55,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "8s",
+            "8s",
+            "8s"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            2
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 56,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 57,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 1,
+          "tiles": [
+            "3p",
+            "5p",
+            "4p"
+          ],
+          "fromSeats": [
+            1,
+            1,
+            0
+          ],
+          "sourceType": 0,
+          "meldType": "chi"
+        },
+        {
+          "sequence": 58,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 59,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6p",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 60,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 61,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "6p",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 62,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 63,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7m",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 64,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "8m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 65,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6s",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 66,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 67,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "4z",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 68,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 69,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2s",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 70,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 71,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "9s",
+          "tilesLeft": 37
+        },
+        {
+          "sequence": 72,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "9s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 73,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "7p",
+          "tilesLeft": 36
+        },
+        {
+          "sequence": 74,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 75,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "7p",
+            "7p",
+            "7p"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            1
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 76,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 77,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8m",
+          "tilesLeft": 35
+        },
+        {
+          "sequence": 78,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "8m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 79,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "5m",
+          "tilesLeft": 34
+        },
+        {
+          "sequence": 80,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 81,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "1m",
+          "tilesLeft": 33
+        },
+        {
+          "sequence": 82,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 83,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6z",
+          "tilesLeft": 32
+        },
+        {
+          "sequence": 84,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 85,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2m",
+          "tilesLeft": 31
+        },
+        {
+          "sequence": 86,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 87,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "6m",
+          "tilesLeft": 30
+        },
+        {
+          "sequence": 88,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 89,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8s",
+          "tilesLeft": 29
+        },
+        {
+          "sequence": 90,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "8s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 91,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "7m",
+          "tilesLeft": 28
+        },
+        {
+          "sequence": 92,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "0p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 93,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3s",
+          "tilesLeft": 27
+        },
+        {
+          "sequence": 94,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 95,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2p",
+          "tilesLeft": 26
+        },
+        {
+          "sequence": 96,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 97,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8p",
+          "tilesLeft": 25
+        },
+        {
+          "sequence": 98,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 99,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "0s",
+          "tilesLeft": 24
+        },
+        {
+          "sequence": 100,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 101,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "4p",
+          "tilesLeft": 23
+        },
+        {
+          "sequence": 102,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 103,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            18400,
+            8300,
+            26900,
+            46400
+          ],
+          "scoreDeltas": [
+            8300,
+            -8300,
+            0,
+            0
+          ],
+          "wins": [
+            {
+              "seat": 0,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "3s",
+              "hand": [
+                "7m",
+                "7m",
+                "7m",
+                "3s",
+                "3s",
+                "4s",
+                "0s"
+              ],
+              "melds": [
+                "kezi(8s,8s,8s)",
+                "kezi(7p,7p,7p)"
+              ],
+              "doraIndicators": [
+                "2s",
+                "8m"
+              ],
+              "uraDoraIndicators": [],
+              "han": 5,
+              "fu": 30,
+              "ronPoints": 8000,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 8000,
+              "yaku": [
+                {
+                  "sourceId": 12,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 3
+                },
+                {
+                  "sourceId": 32,
+                  "name": "",
+                  "han": 1
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "wind": "south",
+      "handNumber": 4,
+      "dealerSeat": 3,
+      "honba": 0,
+      "riichiSticks": 0,
+      "initialScores": [
+        18400,
+        8300,
+        26900,
+        46400
+      ],
+      "initialHands": {
+        "0": [
+          "9m",
+          "3z",
+          "2z",
+          "5m",
+          "4z",
+          "2m",
+          "7z",
+          "6m",
+          "7z",
+          "7m",
+          "5m",
+          "6z",
+          "9m"
+        ],
+        "1": [
+          "2p",
+          "5s",
+          "1z",
+          "7m",
+          "7s",
+          "3m",
+          "6s",
+          "7p",
+          "8p",
+          "7z",
+          "4z",
+          "6m",
+          "8m"
+        ],
+        "2": [
+          "2m",
+          "9m",
+          "1z",
+          "4z",
+          "7p",
+          "3p",
+          "6m",
+          "5p",
+          "3m",
+          "4p",
+          "7s",
+          "4m",
+          "7s"
+        ],
+        "3": [
+          "5z",
+          "5p",
+          "6m",
+          "4p",
+          "9s",
+          "8s",
+          "8m",
+          "6s",
+          "8s",
+          "2z",
+          "7z",
+          "1p",
+          "7p",
+          "4m"
+        ]
+      },
+      "doraIndicators": [
+        "5m"
+      ],
+      "initialTilesLeft": 69,
+      "events": [
+        {
+          "sequence": 0,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 1,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "2s",
+          "tilesLeft": 68
+        },
+        {
+          "sequence": 2,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 3,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "0m",
+          "tilesLeft": 67
+        },
+        {
+          "sequence": 4,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 5,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1s",
+          "tilesLeft": 66
+        },
+        {
+          "sequence": 6,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 7,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3z",
+          "tilesLeft": 65
+        },
+        {
+          "sequence": 8,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "3z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 9,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6p",
+          "tilesLeft": 64
+        },
+        {
+          "sequence": 10,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 11,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "0s",
+          "tilesLeft": 63
+        },
+        {
+          "sequence": 12,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "1z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 13,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2m",
+          "tilesLeft": 62
+        },
+        {
+          "sequence": 14,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 15,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8p",
+          "tilesLeft": 61
+        },
+        {
+          "sequence": 16,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "5z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 17,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "0p",
+          "tilesLeft": 60
+        },
+        {
+          "sequence": 18,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 19,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6z",
+          "tilesLeft": 59
+        },
+        {
+          "sequence": 20,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 21,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "4s",
+          "tilesLeft": 58
+        },
+        {
+          "sequence": 22,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "4s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 23,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8m",
+          "tilesLeft": 57
+        },
+        {
+          "sequence": 24,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 25,
+          "type": "call",
+          "sourceAction": ".lq.RecordChiPengGang",
+          "seat": 0,
+          "tiles": [
+            "7z",
+            "7z",
+            "7z"
+          ],
+          "fromSeats": [
+            0,
+            0,
+            3
+          ],
+          "sourceType": 1,
+          "meldType": "pon"
+        },
+        {
+          "sequence": 26,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "4z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 27,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "2s",
+          "tilesLeft": 56
+        },
+        {
+          "sequence": 28,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "7z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 29,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "3m",
+          "tilesLeft": 55
+        },
+        {
+          "sequence": 30,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "3m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 31,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4m",
+          "tilesLeft": 54
+        },
+        {
+          "sequence": 32,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "1p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 33,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6p",
+          "tilesLeft": 53
+        },
+        {
+          "sequence": 34,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "6z",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 35,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "6z",
+          "tilesLeft": 52
+        },
+        {
+          "sequence": 36,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "6z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 37,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "7m",
+          "tilesLeft": 51
+        },
+        {
+          "sequence": 38,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "7m",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 39,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "2p",
+          "tilesLeft": 50
+        },
+        {
+          "sequence": 40,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "2p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 41,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "4m",
+          "tilesLeft": 49
+        },
+        {
+          "sequence": 42,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "2m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 43,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "5s",
+          "tilesLeft": 48
+        },
+        {
+          "sequence": 44,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 45,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2z",
+          "tilesLeft": 47
+        },
+        {
+          "sequence": 46,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2z",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 47,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "4s",
+          "tilesLeft": 46
+        },
+        {
+          "sequence": 48,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "9s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 49,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "6p",
+          "tilesLeft": 45
+        },
+        {
+          "sequence": 50,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "0p",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 51,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "3p",
+          "tilesLeft": 44
+        },
+        {
+          "sequence": 52,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "3p",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 53,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "2s",
+          "tilesLeft": 43
+        },
+        {
+          "sequence": 54,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "2s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 55,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "3m",
+          "tilesLeft": 42
+        },
+        {
+          "sequence": 56,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "4m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 57,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 0,
+          "tile": "3s",
+          "tilesLeft": 41
+        },
+        {
+          "sequence": 58,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 0,
+          "tile": "3s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 59,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 1,
+          "tile": "8p",
+          "tilesLeft": 40
+        },
+        {
+          "sequence": 60,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 1,
+          "tile": "2s",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 61,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 2,
+          "tile": "1s",
+          "tilesLeft": 39
+        },
+        {
+          "sequence": 62,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 2,
+          "tile": "1s",
+          "isTsumogiri": true,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 63,
+          "type": "draw",
+          "sourceAction": ".lq.RecordDealTile",
+          "seat": 3,
+          "tile": "8m",
+          "tilesLeft": 38
+        },
+        {
+          "sequence": 64,
+          "type": "discard",
+          "sourceAction": ".lq.RecordDiscardTile",
+          "seat": 3,
+          "tile": "6m",
+          "isTsumogiri": false,
+          "isRiichi": false,
+          "isDoubleRiichi": false
+        },
+        {
+          "sequence": 65,
+          "type": "win",
+          "sourceAction": ".lq.RecordHule",
+          "scores": [
+            22300,
+            8300,
+            26900,
+            42500
+          ],
+          "scoreDeltas": [
+            3900,
+            0,
+            0,
+            -3900
+          ],
+          "wins": [
+            {
+              "seat": 0,
+              "isTsumo": false,
+              "isDealer": false,
+              "isRiichi": false,
+              "isYakuman": false,
+              "winningTile": "6m",
+              "hand": [
+                "4m",
+                "5m",
+                "5m",
+                "6m",
+                "7m",
+                "9m",
+                "9m",
+                "6p",
+                "6p",
+                "6p"
+              ],
+              "melds": [
+                "kezi(7z,7z,7z)"
+              ],
+              "doraIndicators": [
+                "5m"
+              ],
+              "uraDoraIndicators": [],
+              "han": 3,
+              "fu": 30,
+              "ronPoints": 3900,
+              "dealerTsumoPayment": 0,
+              "nonDealerTsumoPayment": 0,
+              "totalPoints": 11900,
+              "yaku": [
+                {
+                  "sourceId": 9,
+                  "name": "",
+                  "han": 1
+                },
+                {
+                  "sourceId": 31,
+                  "name": "",
+                  "han": 2
+                }
+              ]
+            }
+          ],
+          "gameEnded": true
+        }
+      ]
+    }
+  ],
+  "unmappedEvents": []
+}

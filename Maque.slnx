@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Maque.Cli/Maque.Cli.csproj" />
+    <Project Path="src/Maque.Core/Maque.Core.csproj" />
+    <Project Path="src/Maque.Majsoul/Maque.Majsoul.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Maque.Tests/Maque.Tests.csproj" />
+  </Folder>
+</Solution>
